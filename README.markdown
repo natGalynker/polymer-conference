@@ -2,14 +2,15 @@
 <a name="presntation-url">
 
 ## Presentationg URL
-[presenation-url]
+[https://literate-sack.surge.sh/#/0?_k=ctgvsi]
 (https://literate-sack.surge.sh/#/0?_k=ctgvsi)
 
 <!-- /MarkdownTOC -->
 
 I used the spectacle template as a starting point. Their github repo can be found
 here:
-[spectacle-boilerplate]
+
+[https://github.com/FormidableLabs/spectacle]
 (https://github.com/FormidableLabs/spectacle)
 
 <a name="topic-choice"></a>
