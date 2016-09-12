@@ -1,0 +1,18 @@
+//loads the youtube video with the particular video id
+<google-youtube
+  video-id="..."
+  height="270px"
+  width="480px"
+  rel="0"
+  start="5"
+  autoplay="1">
+</google-youtube>
+
+<iron-ajax
+    auto
+    url="https://www.googleapis.com/youtube/v3/search"
+    params='{"part":"snippet", "q":"polymer", "key": "YOUTUBE_API_KEY", "type": "video"}'
+    handle-as="json"
+    on-response="handleResponse"
+    debounce-duration="300">
+</iron-ajax>
