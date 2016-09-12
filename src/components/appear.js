@@ -19,7 +19,7 @@ const Appear = React.createClass({
   getInitialState() {
     return {
       active: false,
-      opacity: this.props.route.params.indexOf("export") !== -1 || this.props.route.params.indexOf("overview") !== -1 ? 1 : 0
+      opaka: this.props.route.params.indexOf("export") !== -1 || this.props.route.params.indexOf("overview") !== -1 ? 1 : 0
     };
   },
   componentWillReceiveProps(nextProps) {

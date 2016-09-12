@@ -233,5 +233,5 @@ Presenter.propTypes = {
 
 Presenter.contextTypes = {
   styles: PropTypes.object,
-  store: PropTypes.object.isRequired,
+  store: PropTypes.object.isRequired
 };
