@@ -25,3 +25,10 @@ framework when a developer wants to use it. When I first started doing research
 for it I didn't really understand how expanisive it was. However after doing
 research the possibilities that it holds reaclly keeps expanding. I hope that in
 actuality they were able to pull it off.
+
+
+## [License](LICENSE)
+
+The MIT License (MIT)
+
+Copyright (c) 2013
