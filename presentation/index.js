@@ -26,7 +26,8 @@ const images = {
 preloader(images);
 
 const theme = createTheme({
-  primary: "#ff4081"
+  primary: "#ff4081",
+  initial: "909090"
 });
 
 export default class Presentation extends React.Component {
@@ -34,18 +35,18 @@ export default class Presentation extends React.Component {
     return (
       <Spectacle theme={theme}>
         <Deck transition={["zoom", "slide"]} transitionDuration={500}>
-          <Slide transition={["zoom"]} bgColor="primary">
-            <Heading size={1} fit caps lineHeight={1} textColor="black">
+          <Slide transition={["zoom"]} bgColor="#909090">
+            <Heading size={1} fit caps lineHeight={1} textColor="#6c6782">
               Polymer
             </Heading>
             <Heading size={1} fit caps>
               A new Google technology library
             </Heading>
-            <Heading size={1} fit caps textColor="black">
+            <Heading size={1} fit caps textColor="#6c6782">
             Where you can create your own custom elements
             </Heading>
             <Link href="http://pubnub.github.io/paper-chat/">
-              <Text bold caps textColor="tertiary">Here is an Example in action built by Tomomi </Text>
+              <Text textColor="tertiary">Here is an Example in action built by Tomomi </Text>
             </Link>
           </Slide>
           <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">

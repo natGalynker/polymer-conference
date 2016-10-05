@@ -2,6 +2,7 @@
 
 const defaultColors = {
   primary: "#f9c300",
+  initial: "909090",
   secondary: "black",
   tertiary: "white",
   quartenary: "white"
